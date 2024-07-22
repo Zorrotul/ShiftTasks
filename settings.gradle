@@ -1,0 +1,7 @@
+rootProject.name = 'shift'
+include 'task2'
+include 'task1'
+include 'task3'
+include 'task3:minesweeper'
+
+
