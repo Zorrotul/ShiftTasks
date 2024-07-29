@@ -4,5 +4,9 @@ include 'task1'
 include 'task3'
 include 'task3:minesweeper'
 include 'task4v2'
+include 'task6v2'
+include 'task6v2:client'
+include 'task6v2:server'
+include 'task6v2:cummon'
 
 

@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'cft'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(path: ':task6v2:cummon')
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    //implementation 'com.fasterxml.jackson.core:jackson-databind:2.16.0'
+    //implementation 'org.openjfx:javafx-controls:17.0.2'
+    implementation 'org.openjfx:javafx-fxml:19.0.2.1'
+    implementation 'org.openjfx:javafx-controls:19.0.2.1'
+    compileOnly 'org.projectlombok:lombok:1.18.32'
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.16.0'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.14.1'
+}
+
+test {
+    useJUnitPlatform()
+}
