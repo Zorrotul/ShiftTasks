@@ -45,3 +45,10 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+gradlew
+gradlew.bat
+NoviceHighScore.json
+result.txt
+gradle-wrapper.jar
+gradle-wrapper.properties
